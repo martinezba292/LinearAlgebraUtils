@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/matrix4.hpp
+vector3.hpp
+../include/vector3.hpp
+vector4.hpp
+../include/vector4.hpp
+stdint.h
+-
+
+../include/vector3.hpp
+math.h
+-
+stdint.h
+-
+
+../include/vector4.hpp
+math.h
+-
+stdint.h
+-
+
+/home/xtranger/Projects/LinearAlgebraUtils/src/matrix4.cpp
+matrix4.hpp
+/home/xtranger/Projects/LinearAlgebraUtils/src/matrix4.hpp
+cstdio
+-
+

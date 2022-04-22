@@ -1,0 +1,2 @@
+#define LAU_VERSION_MAJOR 1 
+#define LAU_VERSION_MINOR 0 

@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/xtranger/Projects/LinearAlgebraUtils/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/xtranger/Projects/LinearAlgebraUtils/include  -g   -std=gnu++11 -o CMakeFiles/LAU.dir/src/vector2.cpp.o -c /home/xtranger/Projects/LinearAlgebraUtils/src/vector2.cpp",
+  "file": "/home/xtranger/Projects/LinearAlgebraUtils/src/vector2.cpp"
+},
+{
+  "directory": "/home/xtranger/Projects/LinearAlgebraUtils/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/xtranger/Projects/LinearAlgebraUtils/include  -g   -std=gnu++11 -o CMakeFiles/LAU.dir/src/vector3.cpp.o -c /home/xtranger/Projects/LinearAlgebraUtils/src/vector3.cpp",
+  "file": "/home/xtranger/Projects/LinearAlgebraUtils/src/vector3.cpp"
+},
+{
+  "directory": "/home/xtranger/Projects/LinearAlgebraUtils/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/xtranger/Projects/LinearAlgebraUtils/include  -g   -std=gnu++11 -o CMakeFiles/LAU.dir/src/vector4.cpp.o -c /home/xtranger/Projects/LinearAlgebraUtils/src/vector4.cpp",
+  "file": "/home/xtranger/Projects/LinearAlgebraUtils/src/vector4.cpp"
+},
+{
+  "directory": "/home/xtranger/Projects/LinearAlgebraUtils/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/xtranger/Projects/LinearAlgebraUtils/include  -g   -std=gnu++11 -o CMakeFiles/LAU.dir/src/matrix2.cpp.o -c /home/xtranger/Projects/LinearAlgebraUtils/src/matrix2.cpp",
+  "file": "/home/xtranger/Projects/LinearAlgebraUtils/src/matrix2.cpp"
+},
+{
+  "directory": "/home/xtranger/Projects/LinearAlgebraUtils/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/xtranger/Projects/LinearAlgebraUtils/include  -g   -std=gnu++11 -o CMakeFiles/LAU.dir/src/matrix3.cpp.o -c /home/xtranger/Projects/LinearAlgebraUtils/src/matrix3.cpp",
+  "file": "/home/xtranger/Projects/LinearAlgebraUtils/src/matrix3.cpp"
+},
+{
+  "directory": "/home/xtranger/Projects/LinearAlgebraUtils/build",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/home/xtranger/Projects/LinearAlgebraUtils/include  -g   -std=gnu++11 -o CMakeFiles/LAU.dir/src/matrix4.cpp.o -c /home/xtranger/Projects/LinearAlgebraUtils/src/matrix4.cpp",
+  "file": "/home/xtranger/Projects/LinearAlgebraUtils/src/matrix4.cpp"
+}
+]
