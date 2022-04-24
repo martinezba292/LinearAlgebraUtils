@@ -4,6 +4,7 @@
 #include "vector2.hpp"
 #include <stdint.h>
 
+//MAJOR COLUMN ORDER FOR GLSL
 namespace lau {
   class Matrix2D {
     public:

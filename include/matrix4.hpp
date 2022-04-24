@@ -3,8 +3,10 @@
 
 #include "vector3.hpp"
 #include "vector4.hpp"
+#include "vector2.hpp"
 #include <stdint.h>
 
+//MAJOR COLUMN ORDER FOR GLSL
 namespace lau {
   class Matrix4D {
     public:
@@ -12,6 +14,7 @@ namespace lau {
       Matrix4D(const Matrix4D& matrix);
       Matrix4D(const float m[16]);
       Matrix4D(const Vector4D& v1, const Vector4D& v2, const Vector4D& v3, const Vector4D& v4);
+      //column-row order
       Matrix4D(float m00,float m01, float m02, float m03, 
                float m10,float m11, float m12, float m13, 
                float m20,float m21, float m22, float m23, 
@@ -22,6 +25,7 @@ namespace lau {
       static Matrix4D translate(float x, float y, float z);
       static Matrix4D rotate(const Vector3D& axis, float angle);
       static Matrix4D scale(float x, float y, float z);
+      static Matrix4D shear(float s, const Vector2D& direction);
       static Matrix4D lookAt(const Vector3D& position, const Vector3D& direction, const Vector3D& up);
       static Matrix4D perspective(float fov, float aspect, float near, float far);
 

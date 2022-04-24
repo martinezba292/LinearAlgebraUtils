@@ -4,6 +4,7 @@
 #include "vector3.hpp"
 #include <stdint.h>
 
+//MAJOR COLUMN ORDER FOR GLSL
 namespace lau {
   class Matrix3D {
     public:

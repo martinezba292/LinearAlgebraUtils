@@ -15,28 +15,25 @@ namespace lau {
       
 
 
-
     public:
-      inline float dot(const Vector3D& v) {
+      inline float dot(const Vector3D& v) const {
         return (x_ * v.x_ + y_ * v.y_ + z_ * v.z_);
       }
 
-      inline Vector3D cross(const Vector3D& v) {
+      inline Vector3D cross(const Vector3D& v) const {
         return Vector3D(y_ * v.z_ - z_ * v.y_, 
                         z_ * v.x_ - x_ * v.z_,
                         x_ * v.y_ - y_ * v.x_);
       }
 
-      inline float module() {
+      inline float module() const {
         return sqrtf(dot(*this));
       }
       
 
-      inline Vector3D normalized() {
+      inline Vector3D normalized() const {
         return (Vector3D((*this) / module()));
       }
-
-
 
 
     public:
