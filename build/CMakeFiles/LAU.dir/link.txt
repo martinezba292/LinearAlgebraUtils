@@ -1,2 +1,0 @@
-/bin/ar qc libLAU.a  CMakeFiles/LAU.dir/src/vector2.cpp.o CMakeFiles/LAU.dir/src/vector3.cpp.o CMakeFiles/LAU.dir/src/vector4.cpp.o CMakeFiles/LAU.dir/src/matrix2.cpp.o CMakeFiles/LAU.dir/src/matrix3.cpp.o CMakeFiles/LAU.dir/src/matrix4.cpp.o
-/bin/ranlib libLAU.a
