@@ -19,6 +19,9 @@ add_library(LAU
             "${SRC_PATH}/vector2.cpp"
             "${SRC_PATH}/vector3.cpp"
             "${SRC_PATH}/vector4.cpp"
+            "${SRC_PATH}/ivector2.cpp"
+            "${SRC_PATH}/ivector3.cpp"
+            "${SRC_PATH}/ivector4.cpp"
             "${SRC_PATH}/matrix2.cpp"
             "${SRC_PATH}/matrix3.cpp"
             "${SRC_PATH}/matrix4.cpp")
